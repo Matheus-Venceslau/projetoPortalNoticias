@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="now-date-time">
-            <p><span class="live">AO VIVO</span> <span class="date">Segunda-feira, 21 de setembro 20:15:20</span></p>
+            <p><span class="live">AO VIVO</span> <span class="date"></span></p>
         </div>
 
         <button><i class="fa-solid fa-moon"></i> Escuro</button>
@@ -36,16 +36,97 @@
         </label>
     </nav>
 
-    <main>
+    <section class="main-content">
 
-        <section class="main_news">
+        <main>
 
+            <article class="main_news">
+                <img src="../img/02-smartphone.jpg">
+                <h2>Smartphones entram em uma nova era com câmeras mais inteligentes e IA integrada</h2>
 
-        </section>
+                <p>Novos aparelhos apostam em inteligência artificial, maior desempenho e recursos avançados de
+                    fotografia
+                    para transformar a experiência dos usuários.
+                    <br>
+                    <br>
+                    <span>Por <b>Roberto Santos</b> &bull; 20/09/2026 &bull; 6 min de leitura</span>
+                </p>
+            </article>
+        </main>
 
-    </main>
+        <aside>
+            <ul class="trending">
+                <li>
+                    <h5><span>1</span> Empresas aceleram investimentos em tecnologia e transformam o mercado de trabalho
+                    </h5>
+                    <p>Negócios &bull; 20 set</p>
+                </li>
+                <li>
+                    <h5><span>2</span> Nova descoberta científica pode mudar o que sabemos sobre a origem do universo
+                    </h5>
+                    <p>Ciência &bull; 20 set</p>
+                </li>
+                <li>
+                    <h5><span>3</span>Cultura digital ganha espaço e transforma a forma como novas gerações consomem
+                        arte
+                    </h5>
+                    <p>Cultura &bull; 22 set</p>
+                </li>
+            </ul>
+        </aside>
 
+    </section>
+
+    <section id="lastest-news">
+        <hr>
+
+        <header>
+            <h3>Últimas</h3>
+
+            <div class="filter-selection">
+                <button class="selected">Todas</button>
+                <button>Tecnologia</button>
+                <button>Negócios</button>
+                <button>Ciência</button>
+                <button>Cultura</button>
+                <button>Opinião</button>
+            </div>
+        </header>
+
+        <ul class="news-list"></ul>
+
+        <div class="load-more">
+            <button id="btn-load-more">Carregar mais</button>
+        </div>
+    </section>
+
+    <section class="subscribe">
+        <form>
+            <h2>Receba Conectados no seu email</h2>
+            <p>Um resumo das principais noticias toda sexta-feira. <br> Sem Spam.</p>
+            <div class="form-subscribe">
+                <input type="email" placeholder="seu@email.com" required>
+                <input type="submit" value="Assinar">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Conectados &bull; Portal-modelo para fins didáticos</p>
+
+        <ul>
+            <li>Sobre</li>
+            <li>Contato</li>
+            <li>Privacidade</li>
+            <li>Termos</li>
+        </ul>
+    </footer>
+    
+    <script type="module" src="../scripts/noticiasApp.js"></script>
     <script src="../scripts/timer.js"></script>
+    <script src="../scripts/subscribe.js"></script>
+    <script src="../scripts/darkMode.js"></script>
+    <script src="https://kit.fontawesome.com/bf19b5ff3e.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/bf19b5ff3e.js" crossorigin="anonymous"></script>
 </body>
 
